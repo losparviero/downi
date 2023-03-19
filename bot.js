@@ -86,7 +86,9 @@ async function downi() {
   });
 
   // Run
-
+  console.log(
+    "Bot started. Please keep this window running or setup persistent execution using startup managers like PM2."
+  );
   await bot.start();
 }
 
