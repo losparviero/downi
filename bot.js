@@ -12,7 +12,7 @@
 // Add env vars as a preliminary
 
 require("dotenv").config();
-const { Bot } = require("grammy");
+const { Bot, HttpError, GrammyError } = require("grammy");
 
 // Bot
 
