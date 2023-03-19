@@ -12,6 +12,12 @@ Indicate your users of downtime in Telegram!
 
 Note after deploying you have to set webhook.
 
+Use the following webhook url:
+
+```url
+https://downbot-<your-vercel-username>.vercel.app/api/bot
+```
+
 Or just use [@hooktelebot](https://hooktelebot.t.me).
 
 <br>
