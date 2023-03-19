@@ -8,14 +8,6 @@ Indicate your users of downtime in Telegram!
 
 <br>
 
-### Brief Note
-
-Whenever you start work or maintenance on your bot just use downbot to notify your users in the meanwhile.
-
-The bot replies to all commands & messages.
-
-<br>
-
 ### Vercel Integration
 
 Note after deploying you have to set webhook.
