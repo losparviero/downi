@@ -58,7 +58,7 @@ type nul > .env && echo BOT_TOKEN= >> .env && notepad .env
 ### Install
 
 ```shell
-npm i downbot
+npm i -g downbot
 ```
 
 ### Uninstall
