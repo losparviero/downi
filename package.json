@@ -1,5 +1,5 @@
 {
-  "name": "downi",
+  "name": "downbot",
   "version": "1.0.0",
   "description": "Indicate your users of downtime in Telegram!",
   "main": "bot.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/losparviero/streamtape.git"
+    "url": "git+https://github.com/losparviero/downi.git"
   },
   "scripts": {
     "start": "node bot.js",
