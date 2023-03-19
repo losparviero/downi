@@ -86,6 +86,6 @@ bot.catch((err) => {
 
 // Run
 console.log(
-  "Bot started. Please keep this window running or setup persistent execution using startup managers like PM2."
+  "Bot started. Please keep this window running or setup persistent execution using startup managers like PM2.\nSend CTRL+C to terminate."
 );
 bot.start();

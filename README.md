@@ -4,12 +4,22 @@ Indicate your users of downtime in Telegram!
 
 <br>
 
+### Brief Note
+
+Whenever you start work or maintenance on your bot just call ```npx downbot``` to notify your users in the meanwhile.
+
+If you use a .env file just call downbot in the same directory as your bot and it'll use that. No need to even set env vars.
+
+The bot replies to all commands & messages.
+
+<br>
+
 ### Usage
 
 If installed:
 
 ```shell
-downi
+downbot
 ```
 For temporary use:
 
@@ -50,8 +60,6 @@ type nul > .env && echo BOT_TOKEN= >> .env && notepad .env
 ```shell
 npm i downbot
 ```
-
-<br>
 
 ### Uninstall
 
