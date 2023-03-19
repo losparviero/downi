@@ -12,7 +12,7 @@
 // Add env vars as a preliminary
 
 require("dotenv").config();
-const { Bot, HttpError, GrammyError } = require("grammy");
+const { Bot, HttpError, GrammyError, webhookCallback } = require("grammy");
 
 // Bot
 
@@ -85,7 +85,5 @@ bot.catch((err) => {
 });
 
 // Run
-console.log(
-  "Bot started. Please keep this window running or setup persistent execution using startup managers like PM2.\nSend CTRL+C to terminate."
-);
-bot.start();
+
+export default webhookCallback(bot, "http");
