@@ -1,6 +1,6 @@
 {
   "name": "downbot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Indicate your users of downtime in Telegram!",
   "main": "bot.js",
   "bin": {
