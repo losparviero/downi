@@ -87,7 +87,7 @@ async function downi() {
 
   // Run
 
-  bot.start();
+  await bot.start();
 }
 
 module.exports = { downi };
