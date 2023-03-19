@@ -4,6 +4,24 @@ Indicate your users of downtime in Telegram!
 
 <br>
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flosparviero%2Fdowni%2Ftree%2Fvercel&env=BOT_TOKEN&project-name=downbot&repository-name=downbot)
+
+<details>
+
+<summary>
+Deploy instructions.
+</summary>
+
+<br>
+
+Note after deploying you have to set webhook.
+
+Or just use [@hooktelebot](https://hooktelebot.t.me).
+
+</details>
+
+<br>
+
 ### Brief Note
 
 Whenever you start work or maintenance on your bot just call ```npx downbot``` to notify your users in the meanwhile.
