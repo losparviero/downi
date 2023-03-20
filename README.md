@@ -9,7 +9,7 @@ Indicate your users of downtime in Telegram!
 <details>
 
 <summary>
-Deploy instructions.
+Vercel instructions.
 </summary>
 
 <br>
